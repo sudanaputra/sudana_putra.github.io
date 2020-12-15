@@ -1,0 +1,23 @@
+.bg-biru{
+    background: linear-gradient(115deg, #261675 0%, #0C97DB 100%);
+}
+
+.bg-orange{
+    background: linear-gradient(115deg, #fc6c3a  0%,  #f92730 100%);
+}
+
+.bg-overlay-hitam{
+    background: linear-gradient(0deg,rgba(0,0,0,.9),rgba(0,0,0,.3) 80%,transparent);
+}
+
+.bg-hijau{
+    background: linear-gradient(115deg,#5db783 0%,#0b797b 100%);
+}
+
+img.grayscale {
+    filter: grayscale(100%);
+    transition: filter 0.2s ease-in-out;
+}
+img.grayscale:hover {
+    filter: grayscale(0%);
+}
